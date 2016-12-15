@@ -1,0 +1,16 @@
+.root {
+    width: 50%;
+    height: 100%;
+    font-weight: 400;
+
+    padding: 10px;
+
+    > pre {
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        opacity: 0.7;
+        padding: 10px;
+        background-color: #eee;
+    }
+}
