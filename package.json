@@ -4,7 +4,7 @@
   "description": "Vue2 Examples by NoProtocol",
   "scripts": {
     "start": "npm run dev-hot-reloading",
-    "dev-hot-reloading": "webpack-dev-  server -d --inline --hot --content-base examples --host 0.0.0.0",
+    "dev-hot-reloading": "webpack-dev-server -d --inline --hot --content-base examples --host 0.0.0.0",
     "dev-fast-recompile": "webpack-dev-server -d --content-base examples --host 0.0.0.0",
     "deploy": "webpack -p --progress"
   },
