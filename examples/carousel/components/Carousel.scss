@@ -1,0 +1,20 @@
+.carousel {
+    position: relative;
+    width: 50vw;
+    border: 20px solid #4fc08d;
+    overflow: hidden;
+}
+.carousel__body {
+    display: flex;
+    white-space: nowrap;
+    min-height: 250px;
+    position: relative;
+    will-change: left;
+    transition: 0.5s left ease-in-out;
+}
+.carousel__slide {
+    border: 20px solid #2c3e50;
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
