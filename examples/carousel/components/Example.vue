@@ -1,5 +1,5 @@
 <template>
-    <Carousel :index="slide">
+    <Carousel :index="slide" @change="slideTo">
         <div> Slide 1 </div>
         <div> Slide 2 </div>
         <div> Slide 3 </div>
@@ -16,10 +16,10 @@ export default {
     data: () => ({
         slide: 1,
     }),
-    mounted() {
-        setTimeout(() => {
-            this.slide = 2
-        }, 1000);
+    methods: {
+        slideTo(index) {
+            this.slide = index
+        }
     }
 }
 
